@@ -3,6 +3,7 @@
     text-align: center;
 }
 .badge-img{
+    margin: 0 auto;
     height: 35vh;
     width: 30vh;
 }

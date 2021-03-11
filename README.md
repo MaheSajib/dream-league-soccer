@@ -1,4 +1,4 @@
-(Netlify Link: https://heuristic-johnson-786e93.netlify.app)   [https://heuristic-johnson-786e93.netlify.app]
+(Netlify Link: https://friendly-snyder-fefd92.netlify.app/)   [https://friendly-snyder-fefd92.netlify.app/]
 
 # About This Dream League Soccer
 
@@ -10,4 +10,4 @@ In this project you see some popular League care. Where you have a Badge of leag
 
 When you click the explore button that time you can see a Logo of this league, Founded date, Which Country it belongs, sports Type, Gender of Players Team and some Descriptions about the club.
 
-After all of this In the footer you can see some social icons where you can access some of new pages.
+After all of this In the footer you can see some social icons where you can access some of new pages. Conditional Randaring image logo
