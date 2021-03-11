@@ -1,0 +1,22 @@
+.banner img{
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+}
+.details{
+    margin-top: 20px;
+    background-color: rgb(8, 105, 143);
+    border-radius: 15px;
+}
+.info{
+    color: white;
+    padding: 10px;
+}
+.social-icons {
+    width: 60px;
+    height: 60px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}

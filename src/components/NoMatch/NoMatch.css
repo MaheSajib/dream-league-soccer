@@ -1,0 +1,11 @@
+.error{
+    background-color: red;
+}
+.error h1{
+    color: yellow;
+    text-align: center;
+}
+.error img{
+    margin-left: 220px;
+    width: 900px;
+}
