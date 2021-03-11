@@ -1,4 +1,4 @@
-(Netlify Link: https://frosty-bardeen-9a58dc.netlify.app/)[https://frosty-bardeen-9a58dc.netlify.app/]
+(Netlify Link: https://objective-hypatia-d106db.netlify.app/)[https://objective-hypatia-d106db.netlify.app/]
 
 # About This Dream League Soccer
 
