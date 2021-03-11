@@ -6,7 +6,6 @@ import './League.css';
 import { Link } from 'react-router-dom';
 
 const League = (props) => {
-    console.log(props.league);
     const {strLeague, strSport, idLeague} = props.league;
     const [logo, setLogo] = useState({});
     console.log(logo);
@@ -16,7 +15,7 @@ const League = (props) => {
         .then(res => res.json())
         .then(data => setLogo(data.leagues[0]));
     },[idLeague])
-    const {strBadge} = logo;
+    const {strBadge, strLogo} = logo;
     return (
         <div className="league-cart">
             <Card className="shadow" style={{ width: '18rem' }}>
@@ -24,7 +23,7 @@ const League = (props) => {
                 <Card.Body>
                     <Card.Title>{strLeague}</Card.Title>
                     <Card.Text>Sports type: {strSport}</Card.Text>
-                    <Link to={"/league/"+idLeague}><Button  variant="primary">Explore <FontAwesomeIcon icon={faArrowRight} /></Button></Link>
+                    <Link to={"/league/"+idLeague}><Button onClick={() =>props.handleClick(strLogo)} variant="primary">Explore <FontAwesomeIcon icon={faArrowRight} /></Button></Link>
                 </Card.Body>
             </Card>
         </div>

@@ -1,4 +1,4 @@
-(Netlify Link: https://objective-hypatia-d106db.netlify.app/)[https://objective-hypatia-d106db.netlify.app/]
+(Netlify Link: https://heuristic-johnson-786e93.netlify.app)   [https://heuristic-johnson-786e93.netlify.app]
 
 # About This Dream League Soccer
 

@@ -13,7 +13,7 @@ import LeagueDetails from './components/LeagueDetails/LeagueDetails';
 function App() {
   return (
     <Router>
-      <Header></Header>
+      
       <Switch >
         <Route exact path="/">
           <Home></Home>

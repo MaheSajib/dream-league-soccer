@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Header from '../Header/Header';
 import League from '../League/League';
 import './Home.css';
 
@@ -12,11 +13,18 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setLeagues(data.leagues));
     }, [])
+    const [headerLogo, setHeaderLogo] = useState([]);
+    const handleClick = (logo) =>{
+        setHeaderLogo(logo);
+    }
     return (
-        <div className="league-container">
-            {
-                league.map(league => <League league={league}></League>)
-            }
+        <div>
+            <Header displayHeaderLogo={false} headerLogo={headerLogo}></Header>
+            <div className="league-container">
+                {
+                    league.map(league => <League handleClick={handleClick} league={league}></League>)
+                }
+            </div>
         </div>
     );
 };
